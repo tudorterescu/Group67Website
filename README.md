@@ -7,7 +7,7 @@ selected and the other widget being a currency-converter which converts 5 differ
 ## Blog post
 Alongside these 4 widgets a blogpost javascript file was created in order to be able to post messages to the blog forum through a gui format. Here the blogpost widget will include a title input box and a content input box in order to allow for seperation of content when posting to the forum. There will also be a post button itself which will send the post request to the dev/blog server and refresh the page so that the user is able to visualise what they have sent.
 
-## Currency Conversion Widget (Tudor)
+## Currency Conversion Widget 
 -- 1st iteration: With my widgets first iteration of the simple conversion without lit implementation I set out to integrate the code into the widget-block.js skeleton code. While being able to implement it into lit, the issue came with the input fields as the user had to input whichever currency they would like to convert, in capital letters and accurate to the currency's acronym. Research begins into a drop down auto input method to make it easier on the user's end.
 
 --2nd iteration: Using the map() function I have displayed the different types of currencies possible allowing the user to select their preferred currency without having to manually type which currency they would like.
